@@ -10,7 +10,7 @@ console.log(prices);
 let orders = [21,14,17,22,38]
 
 // Increase the third order quantity by 5
-orders[2] +=4;
+orders[2] +=5;
 
 //Calculate total of orders
 let total = orders.reduce((sum,price) => sum + price, 0);
