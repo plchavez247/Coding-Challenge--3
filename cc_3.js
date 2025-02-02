@@ -69,3 +69,21 @@ feedback.unshift({
 
 // Log feedback to console
 console.log(feedback);
+
+//Task 5: Inventory Management System
+
+// Declare an object inventory with properties:
+let inventory = {
+    itemName:"Key Chains",
+    stockCount: 400,
+    price: 5,
+};
+ 
+// Add method to calculate total value
+inventory.calculateTotalValue = function(){
+    return inventory.stockCount * inventory.price
+};
+
+//Log inventory details and total value
+console.log(inventory);
+console.log(inventory.calculateTotalValue());
