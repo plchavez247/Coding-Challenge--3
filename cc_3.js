@@ -38,3 +38,34 @@ Employee.promotionEligible = true;
 
 // Log updated employee
 console.log("Updated Employee:",Employee);
+
+// Task 4: Customer Feedback Records
+
+// Declare and array with 3 objects
+let feedback = [
+    {
+        customerName: "Bob Belcher",
+        feedbackText: "Good burger of the day",
+        rating: 8
+    },
+    {
+        customerName: "Louis Belcher",
+        feedbackText: "Great server, kind and attentive",
+        rating: 9
+    },
+    {
+        customerName:"Linda Belcher",
+        feedbackText:"She was a little loud",
+        rating: 5
+    }
+];
+
+// Adding a new object to the array
+feedback.unshift({
+    customerName: "Gene Belcher",
+    feedbackText: "Really funny, and a great performer",
+    rating: 10
+});
+
+// Log feedback to console
+console.log(feedback);
